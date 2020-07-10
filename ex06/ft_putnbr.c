@@ -6,7 +6,7 @@
 /*   By: unnemuta <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 08:48:57 by unnemuta          #+#    #+#             */
-/*   Updated: 2020/07/09 08:49:10 by unnemuta         ###   ########.fr       */
+/*   Updated: 2020/07/10 12:20:20 by unnemuta         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -31,4 +31,5 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb / 10);
 		ft_putnbr(nb % 10);
 	}
+	ft_putchar('\n');
 }
