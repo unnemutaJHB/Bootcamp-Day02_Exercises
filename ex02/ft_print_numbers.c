@@ -17,7 +17,7 @@ void	ft_putchar(char c)
 }
 void	ft_print_numbers(void)
 {
-	char one = '1';
+	char zero = '0';
 	while(one <= '9')
 	{
 		ft_putchar(one);
